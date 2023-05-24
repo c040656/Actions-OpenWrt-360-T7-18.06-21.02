@@ -1,11 +1,11 @@
 #!/bin/ash
 
 # Install packages
-opkg update
+#opkg update
 
 #The package name has changed
 #opkg install wireguard
-opkg install wireguard-tools
+#opkg install wireguard-tools
  
 # Configuration parameters
 WG_IF="wg0"
