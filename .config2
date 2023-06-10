@@ -265,10 +265,16 @@ CONFIG_first_card_name="MT7981"
 # CONFIG_MTK_SNIFFER_RADIOTAP_SUPPORT is not set
 CONFIG_PACKAGE_kmod-ipt-offload=y
 CONFIG_PACKAGE_kmod-nf-flow=y
-CONFIG_PACKAGE_luci-app-wireguard=y
-CONFIG_PACKAGE_luci-proto-wireguard=y
-CONFIG_PACKAGE_wireguard-tools=y
+# CONFIG_PACKAGE_luci-app-wireguard is not set
+# CONFIG_PACKAGE_luci-proto-wireguard is not set
+# CONFIG_PACKAGE_wireguard-tools is not set
 CONFIG_PACKAGE_luci-app-ddns=y
 CONFIG_PACKAGE_ddns-scripts=y
 CONFIG_PACKAGE_libqrencode=y
 CONFIG_PACKAGE_qrencode=y
+CONFIG_PACKAGE_python3-docker=y
+CONFIG_PACKAGE_python3-dockerpty=y
+CONFIG_PACKAGE_luci-app-docker=y
+CONFIG_PACKAGE_docker=y
+CONFIG_PACKAGE_docker-compose=y
+CONFIG_PACKAGE_dockerd=y
